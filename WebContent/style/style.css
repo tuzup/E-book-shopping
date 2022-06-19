@@ -1,0 +1,571 @@
+body {
+	margin: 0px;
+	font-family: Arial;
+}
+
+header {
+	background-color: #ED7D31;
+	padding: 35px;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+section {
+	margin-top: 80px;
+	margin-left: 80px;
+	margin-bottom: 250px;
+}
+
+.page-not-found {
+	background-image: url("../images/404.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.home-link {
+	right: 30px;
+	top: 30px;
+	position: fixed;
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	margin: 5px 20px 22px 130px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+.cart-table {
+	width: 90%
+}
+
+.book-table {
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 90%
+}
+
+.order-details {
+	width: 60%;
+}
+
+.offer-table {
+	margin-top: 20px;
+	width: 90%;
+}
+
+th,td {
+	width: 90px;
+	padding: 5px;
+	text-align: left;
+}
+
+article {
+	margin-left: 80px;
+	margin-top: 80px;
+	margin-right: 80px;
+	margin-bottom: 10%;
+}
+
+footer {
+	background-color: #DC7633;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.logo {
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.logo-text {
+	font-size: 25px;
+	margin-left: 15px;
+}
+
+.login-background {
+	background-image: url("../images/bg-index.jpg");
+	background-size: cover;
+}
+
+.login-container {
+	position: absolute;
+	right: 100px;
+	margin-bottom: 100px;
+	max-width: 350px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.10);
+}
+
+.register-close {
+	width: 30px;
+}
+
+.register-container {
+	max-width: 950px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.10);
+}
+
+input[name=firstName],input[name=password],input[name=lastName],input[name=email],input[name=contactNumber]
+	{
+	width: 90%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border-color: transparent;
+	background: #f1f1f1;
+}
+
+input[type=text]:focus,input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+input[type=number] {
+	border: none;
+	background: #f1f1f1;
+	padding: 10px;
+}
+
+.login-button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	margin: 5px 20px 22px 130px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+.login-button:hover {
+	opacity: 1;
+}
+
+.search-button {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.search-container {
+	position: sticky;
+	top: 50px;
+}
+
+.register-button {
+	background-color: #2E86C1;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+.register-button:hover {
+	opacity: 1;
+}
+
+.button {
+	background-color: #E67E22;
+	color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 8px;
+	opacity: 0.9;
+}
+
+.button:hover {
+	opacity: 1;
+}
+
+.register-link {
+	margin: 0 0 0 90px;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.intro-text {
+	color: #FFFFFF;
+}
+
+.headings {
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+
+.cart-item {
+	left: 30px;
+	max-width: 90%;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.10);
+}
+
+.delete-icon {
+	margin-top: 10px;
+}
+
+.quantity input {
+	-webkit-appearance: none;
+	border: none;
+	text-align: center;
+	width: 32px;
+	font-size: 16px;
+	color: #43484D;
+	font-weight: 300;
+}
+
+.validation-message {
+	color: #E74C3C;
+}
+
+.notification-message {
+	color: #239B56;
+}
+
+.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 1px;
+	overflow: hidden;
+	background-color: #333;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	width: 100%
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #2196F3;
+	color: white;
+}
+
+.topnav a . {
+	background-color: #2196F3;
+	color: white;
+}
+
+.topnav {
+	float: right;
+}
+
+.topnav input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+}
+
+.topnav  button {
+	float: right;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+}
+
+.topnav  button:hover {
+	background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+	.topnav {
+		float: none;
+	}
+	.topnav a,.topnav input[type=text],.topnav  button {
+		float: none;
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+	}
+	.topnav input[type=text] {
+		border: 1px solid #ccc;
+	}
+}
+
+#offer {
+	width: 100%;
+}
+
+#new-arrival {
+	width: 650px;
+	height: 400px;
+}
+
+.slides {
+	display: none;
+}
+
+.books {
+	width: 100px;
+	height: 100px;
+}
+
+.most-purchased {
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+.book-shelf {
+	width: 60%;
+}
+
+-----------------------------------
+.book-cover {
+	height: 70px;
+	width: 50px;
+}
+
+.title-heading,.description {
+	width: 30%;
+}
+
+.heading {
+	width: 10%;
+}
+
+#search-bar {
+	width: 100%;
+	font-size: 16px;
+	padding: 12px 20px 12px 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 12px;
+	box-sizing: border-box;
+}
+
+#book-list {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #ddd;
+	font-size: 18px;
+}
+
+#book-list th,#book-list td {
+	text-align: left;
+	padding: 12px;
+}
+
+#book-list tr {
+	border-bottom: 1px solid #ddd;
+}
+
+#book-list tr.header,#book-list tr:hover {
+	background-color: #f1f1f1;
+}
+
+.page-heading {
+	font-family: Verdana font-size : 40px;
+	text-align: center;
+}
+
+.logout {
+	position: absolute;
+	right: 5px;
+}
+
+/*------------------------------------------------------payment -------------------------------*/
+.container {
+	background-color: #f2f2f2;
+	padding: 5px 50px 10px 30px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+}
+
+.box[type=text] {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background: #f1f1f1;
+}
+
+label {
+	margin-bottom: 10px;
+	display: block;
+}
+
+.icon-container {
+	margin-bottom: 20px;
+	padding: 7px 0;
+	font-size: 24px;
+}
+
+.paymentcard {
+	width: 200px;
+	height: 60px;
+}
+
+.btn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px;
+	margin: 10px 0;
+	border: none;
+	width: 100%;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+.btn:hover {
+	background-color: #45a049;
+}
+
+a {
+	color: #2196F3;
+}
+
+hr {
+	border: 1px solid lightgrey;
+}
+
+span.price {
+	float: right;
+	color: grey;
+}
+
+@media ( max-width : 800px) {
+	.row {
+		flex-direction: column-reverse;
+	}
+	.col-25 {
+		margin-bottom: 20px;
+	}
+}
+
+.validateMessage {
+	font-size: 17px;
+	color: #ff0000;
+	text-align: center;
+}
+
+/*-------------------------------------------------payment status-------------------------*/
+.payment-status {
+	margin: 50px 0 20px 80px;
+	font-size: 60px;
+}
+
+.transaction-message {
+	margin-left: 80px;
+	color: #00b300;
+	font-size: 30px;
+}
+
+/*-----------------------------------------payment process----------------------------------*/
+.img-column {
+	margin-left: 100px;
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+/* Clear floats after image containers */
+.img-row {
+	margin-left: 80px;
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.payment-method {
+	margin: 80px;
+}
+
+.payment-image {
+	width: 200px;
+	height: 200px;
+}
+
+/*----------------------------------------payment successful----------------------------------*/
+.order-details {
+	margin: 0px 0 0 80px;
+}
+
+.order-info {
+	margin-left: 80px;
+}
+
+/*---------------------------------------- customer home page----------------------------------*/
+.new-arrivals {
+	padding: 20px;
+	margin: 60px;
+	font-family: Verdana;
+	font-size: 30px;
+	text-align: center;
+	box-shadow: 1px 2px 3px 0px rgba(0.12, 0.25, 0.3, 0.50);
+}
+
+.offers {
+	border: 1px solid black;
+	margin-top: 5px;
+	margin: 60px;
+	font-family: Verdana;
+	text-align: center;
+}
+
+#book-list-homepage {
+	border: 1px solid #ddd;
+	font-size: 18px;
+	width: 90%;
+}
+
+#book-list-homepage th,#book-list-homepage td {
+	text-align: left;
+	padding: 12px;
+}
+
+#book-list-homepage tr {
+	border-bottom: 1px solid #ddd;
+}
+
+#book-list-homepage tr.header,#book-list-homepage tr:hover {
+	background-color: #f1f1f1;
+}
